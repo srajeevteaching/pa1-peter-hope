@@ -26,6 +26,6 @@ primerGal = totalArea/200
 # calculate gallons of paint needed
 paintGal = totalArea/350
 # print all outputs
-print "The total area to be painted is:", totalArea, "square feet"
-print "The number of gallons of primer needed is:", primerGal, "gallons"
-print "The number of gallons of paint needed is:", paintGal, "gallons"
+print ("The total area to be painted is:", totalArea, "square feet")
+print ("The number of gallons of primer needed is: %.2f" % primerGal, "gallons")
+print ("The number of gallons of paint needed is: %.2f" % paintGal, "gallons")
